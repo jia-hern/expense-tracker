@@ -1,0 +1,14 @@
+Now we going to add on a backend to the react frontend so that when the page is reloaded, the information is stored somewhere and can be retrieved again
+
+https://www.youtube.com/watch?v=KyWaXA_NvT0
+43.59
+
+npm init -y 
+npm i express dotenv mongoose colors morgan
+
+// adding a -D makes this a developer dependency
+//what concurrently does is it allows us to run node on 5000 and react on 3000 on a single npm script
+
+npm i -D nodemon concurrently
+
+npm run server

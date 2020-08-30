@@ -1,0 +1,21 @@
+For an frontend frameworks, want to break the UI into specific components,
+get the UI to be displayed 
+then add functionality to those components
+
+https://www.youtube.com/watch?v=XuFDcZABiDQ
+
+
+added a proxy in running package.json
+in line34: "proxy": "http://localhost:5000"
+
+then add in node package.json
+in line 9 and 10:
+		"client": "npm start --prefix client",
+		"dev": "concurrently \"npm run server\" \"npm run client\" "
+
+npm run dev to run both concurrently
+
+npm i axios
+
+for production:
+npm run build
